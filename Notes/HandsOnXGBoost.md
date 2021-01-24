@@ -1,7 +1,6 @@
-I want this to be a little stream of consciousness, so I won't put too much effort into organizing it. 
 
 * **Boosting** refers to using a bunch of weak estimators to make a strong estimator.
-* XGBoost's popularity rests on its use in Kaggle, by a large part.
+* A large part of XGBoost's popularity rests on its use in Kaggle.
 
 `xgboost` has `XGBRegressor, XGBClassifier, XGBRanker` models.
 
@@ -107,4 +106,6 @@ xgb_clf = xgb.DMatrix(X, y, missing=-999, weight=df['test_weight'])
 
 * Learn about weights
 * using xgboost's train is better than the scikit compatible fit, similarly converting data into DMatrices is very useful.
-* 
+
+
+
